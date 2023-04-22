@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa de Câmbio</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="container">
+    <h1>Casa de <span class="green">Câmbio</span></h1>
+
+    <div>
+      <p class="user-prompt">Digite a moeda:</p>
+
+      <div>
+        <input type="text" placeholder="USD" name="currency" id="currency">
+        <button id="search-button">Pesquisar</button>
+      </div>
+    </div>
+
+    <section id="currency-section"></section>
+  </main>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
