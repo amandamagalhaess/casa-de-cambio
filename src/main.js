@@ -1,5 +1,4 @@
 // import Swal from 'sweetalert2';
-// import '@sweetalert2/theme-dark/dark.css';
 
 const searchButton = document.getElementById('search-button');
 const currencyField = document.getElementById('currency');
