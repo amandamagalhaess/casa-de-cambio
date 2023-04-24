@@ -37,6 +37,8 @@ searchButton.addEventListener('click', (event) => {
       icon: 'error',
       title: 'Oops...',
       text: 'Você precisa passar uma moeda',
+      background: 'rgb(50, 50, 50)',
+      color: 'white',
     });
     return;
   }
@@ -52,6 +54,8 @@ searchButton.addEventListener('click', (event) => {
           icon: 'error',
           title: 'Oops...',
           text: 'Moeda não existente!',
+          background: 'rgb(50, 50, 50)',
+          color: 'white',
         });
         return;
       }
